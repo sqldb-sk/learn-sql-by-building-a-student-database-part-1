@@ -107,3 +107,4 @@ touch insert_data.sh
 psql --username=freecodecamp --dbname=students
 chmod insert_data.sh +x
 chmod +x insert_data.sh
+cat courses.csv
