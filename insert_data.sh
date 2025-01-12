@@ -66,6 +66,7 @@ do
     #set to null
     MAJOR_ID=null
     fi
+    
     #insert student
   fi
 done
