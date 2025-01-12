@@ -119,3 +119,12 @@ declare -p IFS
 cp courses_test.csv
 cp courses.csv courses_test.csv
 ./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+chmod +x courses_test.csv
+./insert_data.sh
+chmod +x insert_csv.sh
+-l
+dir
+chmod +x insert_data.sh
+./insert_data.sh
