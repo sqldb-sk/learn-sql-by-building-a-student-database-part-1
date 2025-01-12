@@ -143,3 +143,4 @@ cp students.csv students_test.csv
 -l
 --l
 ls --color=auto
+rm students_test.csv
