@@ -128,3 +128,4 @@ chmod +x insert_csv.sh
 dir
 chmod +x insert_data.sh
 ./insert_data.sh
+./insert_data.sh
