@@ -59,7 +59,6 @@ do
     
     #get major_id
     MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
-      echo $MAJOR_ID
     
     #if not found
     if [[ -z $MAJOR_ID ]]
@@ -67,6 +66,7 @@ do
     #set to null
     MAJOR_ID=null
     fi
+    echo $MAJOR_ID
     #insert student
   fi
 done
