@@ -58,8 +58,8 @@ do
   then
     
     #get major_id
-    MAJOR_ID=MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
-
+    MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
+      echo $MAJOR_ID
     #if not found
     #set to null
     #insert student
