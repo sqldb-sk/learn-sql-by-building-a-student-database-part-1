@@ -108,3 +108,5 @@ psql --username=freecodecamp --dbname=students
 chmod insert_data.sh +x
 chmod +x insert_data.sh
 cat courses.csv
+.\insert_data.sh
+./insert_data.sh
