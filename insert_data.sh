@@ -56,7 +56,10 @@ cat students_test.csv | while IFS="," read FIRST LAST MAJOR GPA
 do
   if [[ $FIRST != first_name ]]
   then
+    
     #get major_id
+    MAJOR_ID=MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
+
     #if not found
     #set to null
     #insert student
